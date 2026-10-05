@@ -1,0 +1,11 @@
+const sets=["items","blueprints","entities","prefabs","convars","commands"];const cache={};let active="items";
+const $=s=>document.querySelector(s), tabs=$("#tabs"),results=$("#results"),q=$("#q");
+const arr=x=>Array.isArray(x)?x:(x&&typeof x==="object"?Object.entries(x).map(([key,value])=>({__key:key,...(typeof value==="object"?value:{value})})):[]);
+function label(x){return x.DisplayName||x.displayName||x.ShortName||x.shortName||x.Name||x.name||x.FullName||x.fullName||x.Command||x.command||x.__key||"Entry"}
+function searchable(x){try{return JSON.stringify(x).toLowerCase()}catch{return""}}
+async function load(name){if(cache[name])return cache[name];const r=await fetch("data/current/"+name+".json",{cache:"no-cache"});if(!r.ok)throw Error("Dataset not synchronized yet");return cache[name]=arr(await r.json())}
+async function draw(){document.querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.set===active));try{const data=await load(active),term=q.value.trim().toLowerCase();let view=term?data.filter(x=>searchable(x).includes(term)):data;results.innerHTML=view.slice(0,200).map(x=>`<article class="card"><h3>${escapeHtml(String(label(x)))}</h3><pre>${escapeHtml(JSON.stringify(x,null,2))}</pre></article>`).join("")||'<div class="empty">No matches.</div>';if(view.length>200)results.insertAdjacentHTML("beforeend",`<div class="empty">Showing first 200 of ${view.length.toLocaleString()} matches.</div>`)}catch(e){results.innerHTML=`<div class="empty">${escapeHtml(e.message)}. Run the Update Rust metadata workflow once.</div>`}}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+sets.forEach(s=>{let b=document.createElement("button");b.textContent=s[0].toUpperCase()+s.slice(1);b.dataset.set=s;b.onclick=()=>{active=s;draw()};tabs.appendChild(b)});
+q.addEventListener("input",draw);
+(async()=>{try{let m=await (await fetch("data/metadata.json",{cache:"no-cache"})).json();$("#sync").textContent="Last sync: "+new Date(m.updated_at).toLocaleString();$("#stats").innerHTML=sets.map(s=>`<div class="stat"><strong>${(m.datasets?.[s]?.count??"—").toLocaleString?.()??"—"}</strong><span>${s}</span></div>`).join("")}catch{}draw()})();
