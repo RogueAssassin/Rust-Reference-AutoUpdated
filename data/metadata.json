@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T23:07:15.260981+00:00",
+  "updated_at": "2026-10-08T06:08:56.808991+00:00",
   "source": "Carbon Rust metadata API",
   "datasets": {
     "blueprints": {
@@ -12,38 +12,32 @@
       "count": 1307,
       "sha256": "1a2b24e6467092d096fad4ec2d8b1314ffde54b1816f7072e3e67875bd7a362d",
       "source": "https://api.carbonmod.gg/meta/rust/items.json",
-      "changed": true
+      "changed": false
     },
     "entities": {
       "count": 2408,
       "sha256": "dd5effb3d11e6842ae9af4b5edf076d56dcaff7a3532693f5c37126021b78274",
       "source": "https://api.carbonmod.gg/meta/rust/entities.json",
-      "changed": true
+      "changed": false
     },
     "prefabs": {
       "count": 6749,
       "sha256": "8b1734b78595fff510f1e382fd409a71a91ef421bfdffe76e86bbc97712e9eb6",
       "source": "https://api.carbonmod.gg/meta/rust/prefabs.json",
-      "changed": true
+      "changed": false
     },
     "convars": {
       "count": 1256,
       "sha256": "528af464474f7e5417304305980d757564592865fe6756ce29c9bfaf885e97cd",
       "source": "https://api.carbonmod.gg/meta/rust/convars.json",
-      "changed": true
+      "changed": false
     },
     "commands": {
       "count": 773,
       "sha256": "8720d82a78e051c2c6e95abc38388e53ffba861726e8bbcb0abf10e640073b7e",
       "source": "https://api.carbonmod.gg/meta/rust/commands.json",
-      "changed": true
+      "changed": false
     }
   },
-  "changed_datasets": [
-    "items",
-    "entities",
-    "prefabs",
-    "convars",
-    "commands"
-  ]
+  "changed_datasets": []
 }
