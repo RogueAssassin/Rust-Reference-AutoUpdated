@@ -1,42 +1,55 @@
 {
-  "updated_at": "2026-10-10T21:47:15.374256+00:00",
+  "schema": 2,
+  "updated_at": "2026-10-09T13:22:27Z",
   "source": "Carbon Rust metadata API",
   "datasets": {
     "blueprints": {
       "count": 662,
+      "bytes": 1280091,
       "sha256": "e4249654e9f58e8d9ff9ffd3aeb3138d6f76d2e54c85c32ef3b12f2f43b6a4c9",
       "source": "https://api.carbonmod.gg/meta/rust/blueprints.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-05T11:05:20Z"
     },
     "items": {
       "count": 1307,
+      "bytes": 964527,
       "sha256": "1a2b24e6467092d096fad4ec2d8b1314ffde54b1816f7072e3e67875bd7a362d",
       "source": "https://api.carbonmod.gg/meta/rust/items.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-07T23:07:15Z"
     },
     "entities": {
       "count": 2408,
+      "bytes": 468243,
       "sha256": "9d08835aff69afbefa211a945d6befefec368a62b3c900ff3edecb498890b231",
       "source": "https://api.carbonmod.gg/meta/rust/entities.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-05T11:05:20Z"
     },
     "prefabs": {
       "count": 6749,
+      "bytes": 1254378,
       "sha256": "cf3e7ec775171ff8484e0911615e0b0e73970cad464ffb049738679ea45f61f2",
       "source": "https://api.carbonmod.gg/meta/rust/prefabs.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-07T23:07:15Z"
     },
     "convars": {
       "count": 1254,
+      "bytes": 322308,
       "sha256": "b60eab8a976bee2c100827a64ff42cd5b1abe1ed5488cd91d1ff0905720f2981",
       "source": "https://api.carbonmod.gg/meta/rust/convars.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-09T13:22:27Z"
     },
     "commands": {
       "count": 773,
+      "bytes": 142007,
       "sha256": "bdddff0499a7d2d59204f815f3af31009166753482d9a9b5fead07d37327683a",
       "source": "https://api.carbonmod.gg/meta/rust/commands.json",
-      "changed": false
+      "changed": false,
+      "changed_at": "2026-10-09T13:22:27Z"
     }
   },
   "changed_datasets": []

@@ -1,0 +1,43 @@
+[
+  {
+    "at": "2026-10-09T13:22:27Z", "dataset": "commands", "before": 773, "after": 773,
+    "totals": { "added": 0, "removed": 0, "changed": 1 },
+    "added": [], "removed": [],
+    "changed": [{ "key": "app.retry_initialize", "fields": ["Help"] }]
+  },
+  {
+    "at": "2026-10-09T13:22:27Z", "dataset": "convars", "before": 1256, "after": 1254,
+    "totals": { "added": 0, "removed": 2, "changed": 1 },
+    "added": [],
+    "removed": ["livestock.vendorwoolminimum", "server.branch"],
+    "changed": [{ "key": "boombox.backtracklength", "fields": ["Help"] }]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z", "dataset": "commands", "before": 771, "after": 773,
+    "totals": { "added": 2, "removed": 0, "changed": 0 },
+    "added": ["livestock.cullexcess", "livestock.showhome"],
+    "removed": [], "changed": []
+  },
+  {
+    "at": "2026-10-07T23:07:15Z", "dataset": "convars", "before": 1256, "after": 1256,
+    "totals": { "added": 5, "removed": 5, "changed": 2 },
+    "added": ["livestock.maxperspecies", "livestock.breedonlyathome", "livestock.familiarityforgetscale", "livestock.trusttolead", "livestock.maxtrust"],
+    "removed": ["livestock.familiarityforgettime", "livestock.trusttobond", "livestock.trusttodefend", "livestock.trustcap", "livestock.curiousfamiliarityscale"],
+    "changed": [
+      { "key": "livestock.wildconditionfloor", "fields": ["Help"] },
+      { "key": "livestock.pricewildpenalty", "fields": ["DefaultValue"] }
+    ]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z", "dataset": "items", "before": 1307, "after": 1307,
+    "totals": { "added": 0, "removed": 0, "changed": 1 },
+    "added": [], "removed": [],
+    "changed": [{ "key": "waterjug", "fields": ["Category"] }]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z", "dataset": "prefabs", "before": 6748, "after": 6749,
+    "totals": { "added": 1, "removed": 0, "changed": 0 },
+    "added": ["assets/rust.ai/agents/sheep/effects/fx_shear_sheep.prefab"],
+    "removed": [], "changed": []
+  }
+]
