@@ -1,15 +1,19 @@
-name: Deploy GitHub Pages
+name: Sync and deploy
+# One workflow on purpose: commits pushed with GITHUB_TOKEN do not trigger other
+# workflows, so a separate deploy workflow never saw the synchronized data.
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: sync-and-deploy
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
@@ -17,11 +21,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Synchronize and validate metadata
+        # A code push should still deploy if Carbon's API is unreachable.
+        continue-on-error: ${{ github.event_name == 'push' }}
+        run: node scripts/sync.mjs
+      - name: Commit changed metadata
+        run: |
+          git config user.name "rust-reference-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "data: synchronize Rust metadata"
+          git push
+      - name: Build API
+        run: node scripts/build.mjs
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: .
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

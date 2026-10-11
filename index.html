@@ -1,3 +1,66 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rogue Rust Reference</title><meta name="description" content="Automatically updated Rust server reference by RogueAssassin."><link rel="stylesheet" href="assets/style.css"></head><body>
-<header><div class="brand"><span class="logo">R</span><div><b>ROGUE <i>RUST</i> <span>REFERENCE</span></b><small>SERVER INTELLIGENCE · AUTO UPDATED</small></div></div><div class="header-status"><div><span class="live"></span><b>LIVE DATA</b><small>Carbon metadata mirror</small></div><div><b>LAST SYNC</b><small id="sync">Checking…</small></div></div></header>
-<main><nav id="tabs"></nav><section id="stats" class="stats"></section><section class="workspace"><aside class="browser"><div class="browser-title"><div><h2 id="sectionTitle">Items</h2><p id="sectionHelp"></p></div><strong id="resultCount">—</strong></div><div class="search"><span>⌕</span><input id="q" type="search" placeholder="Search items by name, shortname or ID…"></div><div class="filters"><select id="filter"></select><select id="sort"><option value="name">Name (A-Z)</option><option value="name-desc">Name (Z-A)</option></select></div><div id="results" class="results"></div><div class="pager"><button id="prev">‹ Previous</button><span id="pageInfo">1 / 1</span><button id="next">Next ›</button></div></aside><section id="detail" class="detail"><div class="welcome"><span class="logo ghost">R</span><h2>Select a reference record</h2><p>Choose an entry from the list to inspect its metadata and copy server-ready values.</p></div></section></section></main><div id="toast" class="toast">Copied</div><footer>ROGUE RUST REFERENCE <span>· RogueAssassin · Automatically synchronized</span></footer><script src="assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rogue Rust Reference</title>
+  <meta name="description" content="Searchable, automatically updated Rust server reference: items with pictures, blueprints, entities, prefabs, convars and commands, plus a static JSON API.">
+  <meta name="theme-color" content="#0b0e11">
+  <link rel="preconnect" href="https://cdn.carbonmod.gg" crossorigin>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#items">
+      <span class="logo">R</span>
+      <span class="brand-text"><b>ROGUE <i>RUST</i> <span>REFERENCE</span></b><small>Server intelligence · auto updated</small></span>
+    </a>
+    <div class="status" id="status" title="">
+      <span class="dot"></span>
+      <span><b id="statusMain">Checking data…</b><small id="statusSub">&nbsp;</small></span>
+    </div>
+  </header>
+
+  <nav id="tabs" class="tabs" aria-label="Datasets"></nav>
+
+  <main id="main">
+    <section class="workspace" id="workspace">
+      <aside class="browser" aria-label="Records">
+        <div class="browser-head">
+          <div>
+            <h1 id="sectionTitle">Items</h1>
+            <p id="sectionHelp"></p>
+          </div>
+          <div class="view-toggle" id="viewToggle" hidden>
+            <button type="button" data-view="list" title="List view" aria-label="List view">☰</button>
+            <button type="button" data-view="grid" title="Grid view" aria-label="Grid view">▦</button>
+          </div>
+        </div>
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search…">
+          <kbd>/</kbd>
+        </label>
+        <div class="filters" id="filters"></div>
+        <div class="count" id="resultCount">&nbsp;</div>
+        <div id="results" class="results" tabindex="-1"></div>
+        <div class="pager">
+          <button type="button" id="prev">‹ Prev</button>
+          <span id="pageInfo">1 / 1</span>
+          <button type="button" id="next">Next ›</button>
+        </div>
+      </aside>
+      <section id="detail" class="detail" aria-live="polite"></section>
+    </section>
+    <section class="page" id="page" hidden></section>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+  <footer>
+    <span>Rogue Rust Reference · RogueAssassin</span>
+    <span>Data mirrored from Carbon's metadata API. Item pictures © Facepunch Studios. Not affiliated with Facepunch or Carbon.</span>
+    <a href="https://github.com/RogueAssassin/Rust-Reference-AutoUpdated" rel="noopener">GitHub</a>
+  </footer>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
