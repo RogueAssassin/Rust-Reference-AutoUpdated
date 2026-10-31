@@ -1,43 +1,294 @@
 [
   {
-    "at": "2026-10-09T13:22:27Z", "dataset": "commands", "before": 773, "after": 773,
-    "totals": { "added": 0, "removed": 0, "changed": 1 },
-    "added": [], "removed": [],
-    "changed": [{ "key": "app.retry_initialize", "fields": ["Help"] }]
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "items",
+    "before": 1307,
+    "after": 1312,
+    "totals": {
+      "added": 5,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "discord.zombie.plushie",
+      "halloween.string.lights",
+      "halloweenwreath",
+      "tunalight.skull",
+      "alien.costume"
+    ],
+    "removed": [],
+    "changed": []
   },
   {
-    "at": "2026-10-09T13:22:27Z", "dataset": "convars", "before": 1256, "after": 1254,
-    "totals": { "added": 0, "removed": 2, "changed": 1 },
-    "added": [],
-    "removed": ["livestock.vendorwoolminimum", "server.branch"],
-    "changed": [{ "key": "boombox.backtracklength", "fields": ["Help"] }]
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "blueprints",
+    "before": 662,
+    "after": 667,
+    "totals": {
+      "added": 5,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "discord.zombie.plushie",
+      "frankensteintable",
+      "halloween.string.lights",
+      "halloweenwreath",
+      "alien.costume"
+    ],
+    "removed": [],
+    "changed": []
   },
   {
-    "at": "2026-10-07T23:07:15Z", "dataset": "commands", "before": 771, "after": 773,
-    "totals": { "added": 2, "removed": 0, "changed": 0 },
-    "added": ["livestock.cullexcess", "livestock.showhome"],
-    "removed": [], "changed": []
-  },
-  {
-    "at": "2026-10-07T23:07:15Z", "dataset": "convars", "before": 1256, "after": 1256,
-    "totals": { "added": 5, "removed": 5, "changed": 2 },
-    "added": ["livestock.maxperspecies", "livestock.breedonlyathome", "livestock.familiarityforgetscale", "livestock.trusttolead", "livestock.maxtrust"],
-    "removed": ["livestock.familiarityforgettime", "livestock.trusttobond", "livestock.trusttodefend", "livestock.trustcap", "livestock.curiousfamiliarityscale"],
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "entities",
+    "before": 2408,
+    "after": 2412,
+    "totals": {
+      "added": 4,
+      "removed": 0,
+      "changed": 3
+    },
+    "added": [
+      "assets/prefabs/deployable/discord zombie plush/discordzombieplushie_deployed.prefab",
+      "assets/prefabs/deployable/halloween_wreath/halloween.wreath.deployed.prefab",
+      "assets/prefabs/deployable/halloween_string_lights/halloween.stringlights.deployed.prefab",
+      "assets/prefabs/deployable/tuna can wall lamp/skins/skull wall lamp/tunalight.skull.deployed.prefab"
+    ],
+    "removed": [],
     "changed": [
-      { "key": "livestock.wildconditionfloor", "fields": ["Help"] },
-      { "key": "livestock.pricewildpenalty", "fields": ["DefaultValue"] }
+      {
+        "key": "assets/rust.ai/agents/npcplayer/pet/frankensteinpet.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/scarecrow/scarecrow_dungeonnoroam.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/scarecrow/scarecrow_dungeon.prefab",
+        "fields": [
+          "Components"
+        ]
+      }
     ]
   },
   {
-    "at": "2026-10-07T23:07:15Z", "dataset": "items", "before": 1307, "after": 1307,
-    "totals": { "added": 0, "removed": 0, "changed": 1 },
-    "added": [], "removed": [],
-    "changed": [{ "key": "waterjug", "fields": ["Category"] }]
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "prefabs",
+    "before": 6749,
+    "after": 6760,
+    "totals": {
+      "added": 11,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "assets/prefabs/deployable/discord zombie plush/discordzombieplushie.item.prefab",
+      "assets/prefabs/deployable/halloween_string_lights/halloween.stringlights.item.prefab",
+      "assets/prefabs/deployable/discord zombie plush/discordzombieplushie.worldmodel.prefab",
+      "assets/prefabs/misc/halloween/alien.costume/alien.costume.item.prefab",
+      "assets/prefabs/deployable/halloween_wreath/halloween.wreath.item.prefab",
+      "assets/prefabs/misc/halloween/alien.costume/alien.costume.wm.prefab",
+      "assets/prefabs/misc/halloween/alien.costume/alien.costume.viewmodel.prefab",
+      "assets/prefabs/deployable/tuna can wall lamp/skins/skull wall lamp/tunalight.skull.item.prefab",
+      "assets/prefabs/deployable/tuna can wall lamp/skins/skull wall lamp/tunalight.skull.worldmodel.prefab",
+      "assets/prefabs/misc/halloween/alien.costume/alien.costume.prefab",
+      "assets/bundled/prefabs/world/event_halloween.prefab"
+    ],
+    "removed": [],
+    "changed": []
   },
   {
-    "at": "2026-10-07T23:07:15Z", "dataset": "prefabs", "before": 6748, "after": 6749,
-    "totals": { "added": 1, "removed": 0, "changed": 0 },
-    "added": ["assets/rust.ai/agents/sheep/effects/fx_shear_sheep.prefab"],
-    "removed": [], "changed": []
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "convars",
+    "before": 1254,
+    "after": 1254,
+    "totals": {
+      "added": 0,
+      "removed": 0,
+      "changed": 3
+    },
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "key": "halloweendungeon.population",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "halloween.enabled",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "halloween.scarecrowpopulation",
+        "fields": [
+          "DefaultValue"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-10-31T12:20:31.922Z",
+    "dataset": "commands",
+    "before": 773,
+    "after": 775,
+    "totals": {
+      "added": 2,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "networkprofiler.packet_capture",
+      "networkprofiler.stop_packet_capture"
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "at": "2026-10-09T13:22:27Z",
+    "dataset": "commands",
+    "before": 773,
+    "after": 773,
+    "totals": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "key": "app.retry_initialize",
+        "fields": [
+          "Help"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-10-09T13:22:27Z",
+    "dataset": "convars",
+    "before": 1256,
+    "after": 1254,
+    "totals": {
+      "added": 0,
+      "removed": 2,
+      "changed": 1
+    },
+    "added": [],
+    "removed": [
+      "livestock.vendorwoolminimum",
+      "server.branch"
+    ],
+    "changed": [
+      {
+        "key": "boombox.backtracklength",
+        "fields": [
+          "Help"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z",
+    "dataset": "commands",
+    "before": 771,
+    "after": 773,
+    "totals": {
+      "added": 2,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "livestock.cullexcess",
+      "livestock.showhome"
+    ],
+    "removed": [],
+    "changed": []
+  },
+  {
+    "at": "2026-10-07T23:07:15Z",
+    "dataset": "convars",
+    "before": 1256,
+    "after": 1256,
+    "totals": {
+      "added": 5,
+      "removed": 5,
+      "changed": 2
+    },
+    "added": [
+      "livestock.maxperspecies",
+      "livestock.breedonlyathome",
+      "livestock.familiarityforgetscale",
+      "livestock.trusttolead",
+      "livestock.maxtrust"
+    ],
+    "removed": [
+      "livestock.familiarityforgettime",
+      "livestock.trusttobond",
+      "livestock.trusttodefend",
+      "livestock.trustcap",
+      "livestock.curiousfamiliarityscale"
+    ],
+    "changed": [
+      {
+        "key": "livestock.wildconditionfloor",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.pricewildpenalty",
+        "fields": [
+          "DefaultValue"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z",
+    "dataset": "items",
+    "before": 1307,
+    "after": 1307,
+    "totals": {
+      "added": 0,
+      "removed": 0,
+      "changed": 1
+    },
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "key": "waterjug",
+        "fields": [
+          "Category"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-10-07T23:07:15Z",
+    "dataset": "prefabs",
+    "before": 6748,
+    "after": 6749,
+    "totals": {
+      "added": 1,
+      "removed": 0,
+      "changed": 0
+    },
+    "added": [
+      "assets/rust.ai/agents/sheep/effects/fx_shear_sheep.prefab"
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
