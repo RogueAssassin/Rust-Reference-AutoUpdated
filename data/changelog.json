@@ -1,5 +1,2552 @@
 [
   {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "items",
+    "before": 1312,
+    "after": 1317,
+    "totals": {
+      "added": 8,
+      "removed": 3,
+      "changed": 97
+    },
+    "added": [
+      "clothing.mod.armorinsert_wool",
+      "minifridge",
+      "pie.crocodile.rich",
+      "blueprintbook",
+      "blueprintfragment",
+      "blueprintpage",
+      "shears",
+      "smg.uzi"
+    ],
+    "removed": [
+      "mini fridge",
+      "advancedblueprintfragment",
+      "basicblueprintfragment"
+    ],
+    "changed": [
+      {
+        "key": "discord.trophy",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "charity.plushy.01",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "charity.plushy.02",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "charity.plushy.03",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "charity.plushy.04",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "discord.plushie",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "discord.zombie.plushie",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "easel",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "hazmat.plushy",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "heavy.scientist.plushie",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "gamesroom.minifridge",
+        "fields": [
+          "RedirectOf"
+        ]
+      },
+      {
+        "key": "scientist.plushie",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sculpture.ice",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sculpture.rock",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.landscape",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.portrait",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.tall",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.xl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.xxl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "workbench.upgrade.prototype",
+        "fields": [
+          "Description"
+        ]
+      },
+      {
+        "key": "workbench.upgrade.salvage",
+        "fields": [
+          "Description"
+        ]
+      },
+      {
+        "key": "pie.apple",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.apple.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.bear",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.bear.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.beef",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.beef.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.bigcat",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.bigcat.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.chicken",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.chicken.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.crocodile",
+        "fields": [
+          "Description",
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.fish",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.fish.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.hunters",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.hunters.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.mutton",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.mutton.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.pork",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.pork.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.pumpkin",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.pumpkin.rich",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "pie.survivors",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.l",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.m",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.s",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xs",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xxl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightup.large",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightupframe.medium",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightupframe.small",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightupframe.standing",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightup.xl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "lightup.xxl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.large",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.medium",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.small",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.standing",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.xl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "goldframe.xxl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.large",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.medium",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.small",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.standing",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.xl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "scrapframe.xxl",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "woodframe.large",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "woodframe.medium",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "woodframe.small",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "woodframe.standing",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "circleballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "heartballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "latexballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "latexclumpballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "mixedclumpballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "speechbubbleballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "starballoon2025",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "fishtrophy",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "huntingtrophylarge",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "huntingtrophysmall",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "wantedposter.wantedposter2",
+        "fields": [
+          "Category",
+          "RedirectOf"
+        ]
+      },
+      {
+        "key": "wantedposter.wantedposter3",
+        "fields": [
+          "Category",
+          "RedirectOf"
+        ]
+      },
+      {
+        "key": "wantedposter.wantedposter4",
+        "fields": [
+          "Category",
+          "RedirectOf"
+        ]
+      },
+      {
+        "key": "wantedposter",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "alien.costume",
+        "fields": [
+          "Description",
+          "SteamStoreItem"
+        ]
+      },
+      {
+        "key": "photoframe.landscape",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "photoframe.large",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "photoframe.portrait",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "trophy",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "trophy2023",
+        "fields": [
+          "Category"
+        ]
+      },
+      {
+        "key": "black.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "blue.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "green.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "red.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "white.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      },
+      {
+        "key": "yellow.berry",
+        "fields": [
+          "ItemMods"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "blueprints",
+    "before": 667,
+    "after": 668,
+    "totals": {
+      "added": 3,
+      "removed": 2,
+      "changed": 57
+    },
+    "added": [
+      "clothing.mod.armorinsert_wool",
+      "minifridge",
+      "shears"
+    ],
+    "removed": [
+      "frankensteintable",
+      "mini fridge"
+    ],
+    "changed": [
+      {
+        "key": "discord.trophy",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "ammo.paintball",
+        "fields": [
+          "Ingredients"
+        ]
+      },
+      {
+        "key": "charity.plushy.01",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "charity.plushy.02",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "charity.plushy.03",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "charity.plushy.04",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "discord.plushie",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "discord.zombie.plushie",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "easel",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "hazmat.plushy",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "heavy.scientist.plushie",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scientist.plushie",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sculpture.rock",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.landscape",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.portrait",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.tall",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.xl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.pictureframe.xxl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "workbench1",
+        "fields": [
+          "Ingredients"
+        ]
+      },
+      {
+        "key": "workbench2",
+        "fields": [
+          "Ingredients"
+        ]
+      },
+      {
+        "key": "workbench3",
+        "fields": [
+          "Ingredients"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.l",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.m",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xs",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "sign.artistcanvas.xxl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "lightup.large",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "lightupframe.small",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "lightupframe.standing",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "lightup.xl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "lightup.xxl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "goldframe.large",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "goldframe.small",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "goldframe.standing",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "goldframe.xl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "goldframe.xxl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scrapframe.large",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scrapframe.small",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scrapframe.standing",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scrapframe.xl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "scrapframe.xxl",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "circleballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "heartballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "latexballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "latexclumpballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "speechbubbleballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "starballoon2025",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "fishtrophy",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "huntingtrophylarge",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "huntingtrophysmall",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "wantedposter",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "alien.costume",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "photoframe.landscape",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "photoframe.large",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "photoframe.portrait",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "trophy",
+        "fields": [
+          "Item"
+        ]
+      },
+      {
+        "key": "trophy2023",
+        "fields": [
+          "Item"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "entities",
+    "before": 2412,
+    "after": 2421,
+    "totals": {
+      "added": 19,
+      "removed": 10,
+      "changed": 78
+    },
+    "added": [
+      "assets/rust.ai/agents/birdflocks/seagullflock.prefab",
+      "assets/bundled/prefabs/system/server/ghost_phone_conversation_provider.prefab",
+      "assets/prefabs/food/coconut/coconut.tree.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintbook_pickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintpage_singlepickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintpage_pickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintfragment_singlepickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintbook_singlepickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintfragment_pickup.entity.prefab",
+      "assets/rust.ai/agents/birdflocks/crowflock.prefab",
+      "assets/prefabs/misc/lighthouse/lighthouse_beacon.repairable.prefab",
+      "assets/rust.ai/agents/seagull/seagullgroup.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.prefab",
+      "assets/prefabs/tools/shears/shears.entity.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.prefab",
+      "assets/prefabs/weapons/waterbucket/waterball_radioactive.prefab",
+      "assets/rust.ai/agents/seagull/seagull.corpse.prefab",
+      "assets/prefabs/food/apple/apple.tree.prefab",
+      "assets/prefabs/weapons/uzi/uzi.entity.prefab"
+    ],
+    "removed": [
+      "assets/bundled/prefabs/static/furnace_static.prefab",
+      "assets/prefabs/vehicle/seats/internalmountedturretseat.prefab",
+      "assets/prefabs/vehicle/seats/standingmountedturretseat.prefab",
+      "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_singlepickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/advancedblueprintfragment_pickup.entity.prefab",
+      "assets/prefabs/resource/blueprint fragment/basicblueprintfragment_pickup.entity.prefab",
+      "assets/prefabs/npc/ranch/overgrazedarea.prefab",
+      "assets/prefabs/vehicle/seats/standingmounted50calturretseat.prefab",
+      "assets/prefabs/vehicle/seats/internalmounteddouble50calturretseat.prefab",
+      "assets/prefabs/deployable/tool cupboard/retro/storageadaptor_retro_tc.deployed.prefab"
+    ],
+    "changed": [
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_rhib.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ptboat.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_floatingcity_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.elevator_inside_door_dilapidated.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.vent.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/player/player.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/waterwell/waterwell_shopkeeper.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/npcplayertest.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/underwaterdweller/npc_underwaterdweller.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_arena.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldwellerspawned.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_any.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roamtethered.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/bottest/bottest.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley_heavy.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_excavator.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/pet/frankensteinpet.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/tunneldweller/npc_tunneldweller.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_outbreak.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_cargo_turret_lr300.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/banditguard/npc_bandit_guard.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_bradley.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/scarecrow/scarecrow.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_pistol.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/gingerbread/gingerbread_dungeon.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_mp5.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/scarecrow/scarecrow_dungeon.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/gingerbread/gingerbread_meleedungeon.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_shotgun.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_lr300.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/scarecrow/scarecrow_dungeonnoroam.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_full_any.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/missionprovider_test.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/tutorial/missionprovider_tutorial.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_generic_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_b.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_b.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_b.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_a.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_b.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/ranch/livestockvendor_stables.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.nms_hatch.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/content/vehicles/siegeweapons/siegetower/subents/siegetower.drawbridge_02.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/bandit_conversationalist.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/bandit_shopkeeper_sitting.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/content/vehicles/boats/ptboat/turrets/pt_boat_turret_rear.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.elevator_door.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.elevator_door_office.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.elevator_door_dilapidated.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.elevator_inside_door_office.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/building/floor.ladder.hatch.toptier/floor.ladder.hatch.toptier.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam_nvg_variant.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/building/floor.ladder.hatch/floor.ladder.hatch.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/building/floor.ladder.hatch.toptier/floor.triangle.ladder.hatch.toptier.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/boat_shopkeeper.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/floatingcity/farm_access_guard.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/apartment/apartment_vendor.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/apartment/apartment_security.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/content/vehicles/siegeweapons/siegetower/subents/siegetower.drawbridge_01.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/static/door.hinged.bunker_hatch.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/content/vehicles/siegeweapons/siegetower/subents/siegetower.drawbridge_03.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/npc/bandit/shopkeepers/stables_shopkeeper.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_patrol_arctic.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/content/vehicles/boats/ptboat/turrets/ptboat_turret_front.prefab",
+        "fields": [
+          "Components"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "prefabs",
+    "before": 6760,
+    "after": 6889,
+    "totals": {
+      "added": 159,
+      "removed": 30,
+      "changed": 356
+    },
+    "added": [
+      "assets/prefabs/deployable/workbench upgrades/effects/prototype_fail.prefab",
+      "assets/prefabs/tools/map/ui/ui.map.toolcupboard.prefab",
+      "assets/prefabs/weapons/uzi/effects/attack_shake_ads.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintpage.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_generic.projectile.prefab",
+      "assets/prefabs/weapons/nailgun/effects/w_drop_magazine.prefab",
+      "assets/prefabs/weapons/uzi/effects/w_drop_magazine.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintfragment.prefab",
+      "assets/prefabs/weapons/uzi/effects/clip_out.prefab",
+      "assets/prefabs/weapons/uzi/uzi.item.prefab",
+      "assets/prefabs/weapons/uzi/effects/buttstock_unlock.prefab",
+      "assets/prefabs/tools/shears/effects/deploy.prefab",
+      "assets/prefabs/tools/shears/shears.item.prefab",
+      "assets/prefabs/clothing mods/armorinsert/wool_armorinsert.item.prefab",
+      "assets/prefabs/weapons/uzi/effects/attack_silenced.prefab",
+      "assets/prefabs/weapons/uzi/effects/reload_start.prefab",
+      "assets/prefabs/resource/blueprint fragment/effects/blueprintfragment_upgrade.prefab",
+      "assets/prefabs/food/pies/items/food_pie_crocodile_rich.item.prefab",
+      "assets/prefabs/weapons/uzi/effects/attack_shake.prefab",
+      "assets/prefabs/weapons/uzi/effects/deploy.prefab",
+      "assets/prefabs/weapons/uzi/effects/w_eject_pistol_shell.prefab",
+      "assets/prefabs/weapons/uzi/effects/clip_in.prefab",
+      "assets/prefabs/tools/shears/effects/attack-1.prefab",
+      "assets/prefabs/weapons/uzi/effects/bolt_shut.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintbook.prefab",
+      "assets/prefabs/weapons/uzi/effects/dryfire.prefab",
+      "assets/prefabs/weapons/uzi/effects/buttstock_swingback.prefab",
+      "assets/prefabs/weapons/uzi/uzi.worldmodel.prefab",
+      "assets/prefabs/weapons/uzi/effects/bolt_back.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintpage.worldmodel.prefab",
+      "assets/prefabs/resource/blueprint fragment/blueprintfragment.worldmodel.prefab",
+      "assets/prefabs/building core/floor.frame/floor.frame.scrapking.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.scrapking.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.corner.90.convex.l.prefab",
+      "assets/prefabs/building core/wall.half/wall.half.scrapking.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.top.line.end.right.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.gingerbread.prefab",
+      "assets/prefabs/building core/roof.triangle/roof.triangle.scrapking.prefab",
+      "assets/prefabs/misc/decor_dlc/rail road planter/railroadplanter.guide.prefab",
+      "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.guide.prefab",
+      "assets/prefabs/building core/wall.low/wall.low.scrapking.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.spacestation.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.brutalist.prefab",
+      "assets/rust.ai/agents/seagull/seagull.ragdoll.prefab",
+      "assets/prefabs/building core/wall/wall.scrapking.left.prefab",
+      "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.guide.prefab",
+      "assets/prefabs/tools/armourplating/woolarmourplate.worldmodel.prefab",
+      "assets/prefabs/building core/foundation/foundation.scrapking.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.jungle.prefab",
+      "assets/prefabs/resource/blueprint book/blueprintbook.worldmodel.prefab",
+      "assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.guide.prefab",
+      "assets/prefabs/building core/foundation.triangle/foundation.triangle.scrapking.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.stone.prefab",
+      "assets/prefabs/deployable/tool cupboard/shockbyte/cupboard.tool.shockbyte.guide.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.corner.90.concave.r.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.left.line.prefab",
+      "assets/prefabs/deployable/furnace.large/skins/industrial_large_furnace/industrial.furnace.large.guide.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.wood.prefab",
+      "assets/prefabs/misc/halloween/scarecrow/scarecrow.guide.prefab",
+      "assets/prefabs/building core/stairs.spiral/stairs.spiral.landing.scrapking.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.corner.90.convex.r.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.frontier.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.scrapking.prefab",
+      "assets/prefabs/building core/wall/wall.scrapking.corner.r.prefab",
+      "assets/prefabs/building core/wall/wall.scrapking.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.toptier.prefab",
+      "assets/prefabs/weapons/uzi/effects/attack.prefab",
+      "assets/prefabs/building core/wall.frame/wall.frame.scrapking.prefab",
+      "assets/prefabs/deployable/computerstation/computerstation.guide.prefab",
+      "assets/prefabs/building core/stairs.spiral.triangle/stairs.triangle.spiral.landing.scrapking.prefab",
+      "assets/prefabs/building core/wall.half/wall.half.scrapking.corner.r.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.corner.90.concave.l.top.line.prefab",
+      "assets/prefabs/deployable/furnace.large/furnace.large.guide.prefab",
+      "assets/prefabs/building core/roof.triangle/roof.triangle.scrapking.up.left.line.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.bottom.line.prefab",
+      "assets/prefabs/deployable/repair bench/repairbench.guide.prefab",
+      "assets/prefabs/misc/summer_dlc/watergun/effects/pfx_watergun_spray_final_radioactive.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.metal.prefab",
+      "assets/prefabs/building core/wall.low/wall.low.scrapking.corner.r.prefab",
+      "assets/prefabs/building core/wall/wall.scrapking.right.prefab",
+      "assets/prefabs/building core/stairs.u/mirrored/block.stair.ushape.mirrored.container.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.container.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.twig.prefab",
+      "assets/prefabs/building core/roof/roof.scrapking.right.line.prefab",
+      "assets/prefabs/building core/roof.triangle/roof.triangle.scrapking.up.top.line.prefab",
+      "assets/prefabs/building core/floor.triangle/floor.triangle.scrapking.prefab",
+      "assets/prefabs/building core/stairs.l/mirrored/block.stair.lshape.mirrored.crypt.prefab",
+      "assets/prefabs/building core/stairs.spiral.triangle/stairs.triangle.spiral.scrapking.prefab",
+      "assets/prefabs/building core/ramp/ramp.scrapking.prefab",
+      "assets/prefabs/deployable/planters/planter.large.guide.prefab",
+      "assets/prefabs/building core/stairs.spiral/block.stair.spiral.scrapking.prefab",
+      "assets/prefabs/weapons/waterbucket/effects/waterthrow3p_radioactive.prefab",
+      "assets/prefabs/building core/foundation.steps/foundation.steps.scrapking.prefab",
+      "assets/prefabs/misc/decor_dlc/rail road planter/triangle_railroad_planter.guide.prefab",
+      "assets/prefabs/misc/summer_dlc/watergun/effects/watergun-impact-radioactive.prefab",
+      "assets/prefabs/building core/wall/wall.scrapking.corner.l.prefab",
+      "assets/prefabs/building core/roof.triangle/roof.triangle.scrapking.down.top.line.prefab",
+      "assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.guide.prefab",
+      "assets/prefabs/building core/stairs.u/block.stair.ushape.scrapking.prefab"
+    ],
+    "removed": [
+      "assets/prefabs/food/pies/projectiles/food_pie_big_cat.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_survivors.projectile.prefab",
+      "assets/content/vehicles/boats/ptboat/effects/50cal_dryfire.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_pork.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_apple.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_pumkin.projectile.prefab",
+      "assets/prefabs/resource/blueprint fragment/basicblueprintfragment.prefab",
+      "assets/content/vehicles/boats/ptboat/turrets/50cal/50_cal_rear.viewmodel.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_bear.projectile.prefab",
+      "assets/prefabs/resource/blueprint fragment/advancedblueprintfragment.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_crocodile.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_fish.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_hunters.projectile.prefab",
+      "assets/prefabs/food/pies/projectiles/food_pie_chicken.projectile.prefab",
+      "assets/content/vehicles/boats/ptboat/turrets/50cal/effects/single-attack.prefab",
+      "assets/content/vehicles/boats/ptboat/turrets/50cal/effects/double-attack.prefab",
+      "assets/prefabs/resource/blueprint fragment/basicblueprintfragment.worldmodel.prefab",
+      "assets/prefabs/resource/blueprint fragment/advanceblueprintfragment.worldmodel.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.bear.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.chicken.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.bigcat.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.apple.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.crocodile.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.pumpkin.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.mutton.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.fish.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.pork.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.beef.oven.prefab",
+      "assets/prefabs/food/pies/cooking_conditionals/pie.deer.oven.prefab",
+      "assets/bundled/prefabs/world/event_halloween.prefab"
+    ],
+    "changed": [
+      {
+        "key": "assets/prefabs/weapons/doubleshotgun/effects/pfx_bolt_shut_sparks.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/effects/pfx_open_hatch_smokeout.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m16a2/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_mutton.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/sks/effects/eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_diver_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/thompson/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/plants/berrry/white/white_berry.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m4 shotgun/effects/w_eject_shotgun_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/plants/berrry/red/red_berry.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/effects/pfx_fire_rocket_smokeout.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/doubleshotgun/effects/w_eject_shotgun_shell_1.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_big_cat_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/fx/impacts/additive/explosion.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/sks/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/glockskin/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m4 shotgun/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/skins/space/effects/pfx_clip_out_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/smg/effects/w_eject_pistol_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_beef_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_close_hatch_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_pork.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/effects/pfx_clip_out_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/plants/berrry/blue/blue_berry.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_jungle_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_open_hatch_smokeout.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m92/effects/w_eject_pistol_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/semi auto pistol/effects/w_eject_pistol_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/effects/attack.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/warhammer/krieg shotgun/effects/w_eject_shotgun_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/blunderbuss/effects/pfx_open_barrel_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m249/effects/reload_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/semi auto rifle/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/high caliber revolver/effects/reload_smoke_temp_dontuse.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/high caliber revolver/effects/attack.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/spas12/effects/w_eject_shotgun_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_fish.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/minigun/effects/eject_shellpluslink.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m92/effects/w_drop_mag.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/plants/berrry/black/black_berry.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/thompson/effects/eject_pistol_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_pumpkin.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m92/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/l96/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_glass_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/doubleshotgun/effects/attack.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/hmlmg/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_fish_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/bolt rifle/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/semi auto rifle/effects/eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/deployable/reactive target/effects/tire_smokepuff.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/hmlmg/effects/w_eject_pistol_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/skins/space/effects/eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/sawnoff_shotgun/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/blunderbuss/effects/w_eject_shotgun_shell_1.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/t1 smg/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/tools/flareold/effects/pullpin.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/mp5/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_chicken.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/spas12/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/effects/pfx_rocket_insert_smoke_deprecated.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/plants/berrry/green/green_berry.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/t1 smg/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/bolt rifle/effects/pfx_bolt_open_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m39 emr/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m16a2/effects/eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m39 emr/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_diver_net_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/skins/space/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/revolver/effects/w_eject_pistol_shells.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/smg/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/flamethrower/effects/gas_release.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/skins/rpg7/effects/attack.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/sks/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/bundled/prefabs/fx/screen_land.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/lr300/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/bolt rifle/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_bear_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapon mods/silencers/effects/silencedshot_default.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_pork_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/doubleshotgun/effects/pfx_open_barrel_smoke.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_beef.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m249/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_drop_med_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_pumpkin_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_big_cat.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/water jug/effects/waterjug_splash.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/effects/pfx_rocket_insert_pressure.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/semi auto rifle/effects/w_drop_magazine.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_hunters_rich.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/food/pies/items/food_pie_hunters.item.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_fire_rocket_smokeout.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m249/effects/attack_silenced.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/semi auto rifle/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/ak47u/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/sks/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      },
+      {
+        "key": "assets/prefabs/weapons/m16a2/effects/w_eject_rifle_shell.prefab",
+        "fields": [
+          "Components"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "convars",
+    "before": 1254,
+    "after": 1272,
+    "totals": {
+      "added": 51,
+      "removed": 33,
+      "changed": 17
+    },
+    "added": [
+      "birdflock.crowpopulation",
+      "birdflock.seagullpopulation",
+      "birdflock.explosionstartleradius",
+      "birdflock.corpseinterestpriority",
+      "boatai.roaming_egress_minutes",
+      "playerboat.sailblockedupdateinterval",
+      "baseboat.regenerate_ocean_path",
+      "ptboatturret.ai_burst_length",
+      "ptboatturret.ai_time_between_bursts",
+      "ptboatturret.ai_fire_rate",
+      "buildingmanager.privilegecache",
+      "buildingmanager.debugprivilegequeries",
+      "buildingmanager.debugprivilegegrid",
+      "itemmodentity.playeronlyentitybeltonly",
+      "networkprofiler.packetcapturerustrelay",
+      "generateerosion.determinism_log",
+      "ai.fsm_frametime_scientists",
+      "ai.fsm_frametime_animals",
+      "ai.fsm_frametime_livestock",
+      "antihack.limbreach",
+      "antihack.limbreachgrace",
+      "debug.overlaykbps",
+      "decay.tick_budget_ms",
+      "deepsea.lighthouseopendelay",
+      "livestock.nonownertrustshare",
+      "livestock.maxfreerangeherd",
+      "livestock.freerangelinkradius",
+      "livestock.breedingfloorperhead",
+      "livestock.lethalfloorperhead",
+      "livestock.sunfullshare",
+      "livestock.sunsamplepolys",
+      "livestock.sunsamplehours",
+      "livestock.sunresampleminutes",
+      "livestock.estimatestandingshare",
+      "livestock.grazehelpingmin",
+      "livestock.grazehelpingmax",
+      "livestock.remoteeatafter",
+      "livestock.remoteeatdistance",
+      "livestock.starvedsearchinterval",
+      "livestock.sleepychance",
+      "livestock.potentialriseseconds",
+      "livestock.potentialfallseconds",
+      "livestock.potentialunbredcap",
+      "livestock.vendorlowpotential",
+      "livestock.needsframetime",
+      "livestock.drawradius",
+      "server.sprintmetabolismscale",
+      "server.enforceoverlapchecksonbuildingblockchanges",
+      "world.topology_hierarchy_validate",
+      "seagullgroup.population",
+      "seagullgroup.deepseafill"
+    ],
+    "removed": [
+      "basemountable.canpausemountedplayersync",
+      "baseplayer.allowrelationshipserverocclusion",
+      "mountedweapon.antihack_level",
+      "mountedweapon.antihack_max_snap_degrees",
+      "mountedweapon.antihack_max_degrees_per_second_yaw",
+      "mountedweapon.antihack_max_degrees_per_second_pitch",
+      "aimountedweaponcontroller.time_between_bursts",
+      "aimountedweaponcontroller.fire_rate",
+      "aimountedweaponcontroller.burst_length",
+      "ai.batch_navmesh_pathfollowing",
+      "ai.batch_navmesh_transforms",
+      "ai.fsm_frametime",
+      "antihack.terrain_vehicle_seat_padding",
+      "livestock.breedonlyathome",
+      "livestock.familiarityforgetscale",
+      "livestock.trusttotolerate",
+      "livestock.trusttolead",
+      "livestock.maxtrust",
+      "livestock.overgrazingenabled",
+      "livestock.overgrazedarearadius",
+      "livestock.overgrazedareacooldownminutes",
+      "livestock.grazesuntilovergrazed",
+      "livestock.debugovergrazing",
+      "livestock.wildconditionfloor",
+      "livestock.priceageprime",
+      "livestock.priceoldestscale",
+      "livestock.pricewildpenalty",
+      "livestock.genelongevitybad",
+      "livestock.genelongevitygood",
+      "livestock.baselinenameweight",
+      "livestock.localenames",
+      "server.respawnresetrange",
+      "server.enforcepipechecksonbuildingblockchanges"
+    ],
+    "changed": [
+      {
+        "key": "tutorialisland.overridetutoriallocation",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "halloweendungeon.population",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "aithinkmanager.animalframebudgetms",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "ai.critters_frametime",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "ai.ocean_critters_movement_frametime",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "halloween.enabled",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "halloween.scarecrowpopulation",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "livestock.agescale",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.trustfloor",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.leadbreakdistance",
+        "fields": [
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "livestock.conditionfullcontentment",
+        "fields": [
+          "Help",
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "livestock.conditionfallseconds",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.genehardinessbad",
+        "fields": [
+          "Help",
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "livestock.genehardinessgood",
+        "fields": [
+          "Help",
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "livestock.namelocale",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "server.useplayerupdatejobs",
+        "fields": [
+          "Help",
+          "DefaultValue"
+        ]
+      },
+      {
+        "key": "room.occlusion_door_immediate",
+        "fields": [
+          "DefaultValue"
+        ]
+      }
+    ]
+  },
+  {
+    "at": "2026-11-05T19:53:59.264Z",
+    "dataset": "commands",
+    "before": 775,
+    "after": 782,
+    "totals": {
+      "added": 12,
+      "removed": 5,
+      "changed": 11
+    },
+    "added": [
+      "basemountedweapon.reload",
+      "birdflock.interest",
+      "birdflock.startle",
+      "livestock.drawherds",
+      "livestock.drawpens",
+      "livestock.setpotential",
+      "livestock.setsleepy",
+      "pool.debug_mem_start",
+      "pool.debug_mem_stop",
+      "seagullgroup.land",
+      "seagullgroup.landat",
+      "seagullgroup.startle"
+    ],
+    "removed": [
+      "ballistagun.reload",
+      "livestock.cleargrazing",
+      "livestock.emptysocial",
+      "livestock.fillsocial",
+      "livestock.overgrazehere"
+    ],
+    "changed": [
+      {
+        "key": "global.adminui_requestugccontent",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "entity.spawnvendor",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "global.teleportany",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.ageup",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.cullexcess",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.readytomilk",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.sendhome",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.setcurious",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.setgene",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.showcoat",
+        "fields": [
+          "Help"
+        ]
+      },
+      {
+        "key": "livestock.showhome",
+        "fields": [
+          "Help"
+        ]
+      }
+    ]
+  },
+  {
     "at": "2026-10-31T12:20:31.922Z",
     "dataset": "items",
     "before": 1307,

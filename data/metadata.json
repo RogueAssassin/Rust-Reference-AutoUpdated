@@ -1,55 +1,55 @@
 {
   "schema": 2,
-  "updated_at": "2026-10-31T12:20:31.922Z",
+  "updated_at": "2026-11-05T19:53:59.264Z",
   "source": "Carbon Rust metadata API",
   "datasets": {
     "items": {
-      "count": 1312,
-      "bytes": 968827,
-      "sha256": "2bf8ebb99e86299bf0bfd639298da2f911c83d1ec09f9ff43e0e4a9ce700822d",
+      "count": 1317,
+      "bytes": 972481,
+      "sha256": "f2a17a1874903332c472ef89694a03403b333366d970408ee90af6ea8641d68d",
       "source": "https://api.carbonmod.gg/meta/rust/items.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     },
     "blueprints": {
-      "count": 667,
-      "bytes": 1284669,
-      "sha256": "6b75e92917bc4363d0716c44dbbb82219aae22222e8385e164a987688b8a4e7b",
+      "count": 668,
+      "bytes": 1286224,
+      "sha256": "3eae3d004b0f00d837aa3c8296bce55b19a439289fbbf0def463bca897e60f7f",
       "source": "https://api.carbonmod.gg/meta/rust/blueprints.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     },
     "entities": {
-      "count": 2412,
-      "bytes": 469275,
-      "sha256": "7d80a5fd7bbb1a91e231cd4ee29fbb1b914359872fd4bec81546227830518918",
+      "count": 2421,
+      "bytes": 469558,
+      "sha256": "271cca76a642100f0df376585dcab30365c45ef55bf92fbcbf7998b37cd2adec",
       "source": "https://api.carbonmod.gg/meta/rust/entities.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     },
     "prefabs": {
-      "count": 6760,
-      "bytes": 1256784,
-      "sha256": "41974533f771f2eddef3b36ddeddfb634cb71dad1e8232a121ec905ca024f530",
+      "count": 6889,
+      "bytes": 1276239,
+      "sha256": "f8d7beb91812ed7df6e8a6d7b956cf090aa3546149acc057d839ef655dd9ce84",
       "source": "https://api.carbonmod.gg/meta/rust/prefabs.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     },
     "convars": {
-      "count": 1254,
-      "bytes": 321373,
-      "sha256": "e278050bd106e99948683df8759c9404cbc147633a4360ceaed7aeceb4fbae4b",
+      "count": 1272,
+      "bytes": 326720,
+      "sha256": "cd1db7c8fa34f6e608ddef85fb2e8c28f55fc0945d51b778d50af6353834a9db",
       "source": "https://api.carbonmod.gg/meta/rust/convars.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     },
     "commands": {
-      "count": 775,
-      "bytes": 142415,
-      "sha256": "37ead5b60d4d70458ba46f16dd788c36267572541cd8c10c4d1a0d73594216cf",
+      "count": 782,
+      "bytes": 144446,
+      "sha256": "5ad93c3b08cac2656a3a2b02150d820c9b4715f31e82292a06bef4aa3a44835c",
       "source": "https://api.carbonmod.gg/meta/rust/commands.json",
       "changed": true,
-      "changed_at": "2026-10-31T12:20:31.922Z"
+      "changed_at": "2026-11-05T19:53:59.264Z"
     }
   },
   "changed_datasets": [

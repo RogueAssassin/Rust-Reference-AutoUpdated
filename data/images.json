@@ -10,9 +10,16 @@
     "base.single.shelves",
     "base.vertical.barrel",
     "batteringram.head.repair",
+    "blueprintbook",
+    "blueprintfragment",
+    "blueprintpage",
+    "clothing.mod.armorinsert_wool",
     "discord.zombie.plushie",
     "minigunammopack",
     "parachute.deployed",
+    "pie.crocodile.rich",
+    "shears",
+    "smg.uzi",
     "vehicle.chassis",
     "vehicle.module"
   ]
